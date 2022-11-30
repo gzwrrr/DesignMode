@@ -1,4 +1,6 @@
-package com.gontoy.v_responsibility.example;
+package com.gontoy.v_responsibility.example.simple.handler;
+
+import com.gontoy.v_responsibility.example.simple.request.Request;
 
 /**
  * @author gzw

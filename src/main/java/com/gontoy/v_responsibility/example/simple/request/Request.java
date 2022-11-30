@@ -1,4 +1,4 @@
-package com.gontoy.v_responsibility.example;
+package com.gontoy.v_responsibility.example.simple.request;
 
 /**
  * @author gzw

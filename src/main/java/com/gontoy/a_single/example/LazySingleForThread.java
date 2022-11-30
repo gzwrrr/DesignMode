@@ -20,7 +20,7 @@ public class LazySingleForThread {
      * 如果发生了指令重排导致 2、3 步的顺序调换，就有可能出现一个线程先执行 3，此时变量直接指向了分配的内存地址不为 null
      * 而另一个线程可能恰巧发现不为空就直接返回了，这样就可能导致返回了空对象
      */
-    public volatile static LazySingleForThread uniqueInstance;
+    private volatile static LazySingleForThread uniqueInstance;
 
     /**
      * 注意构造函数私有
